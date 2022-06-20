@@ -17,8 +17,8 @@ webdriveroptions.add_argument("--start-maximized")
 st.title('Snapshot App')
 link=st.text_input('Enter Web_Page link')
 
-s=Service("/home/appuser/.conda/bin/geckodriver")
-driver=webdriver.Firefox(s,options=webdriveroptions)
+# s=Service("/home/appuser/.conda/bin/geckodriver")
+driver=webdriver.Firefox(executable_path="/home/appuser/.conda/bin/geckodriver",options=webdriveroptions)
 
 if link=="":
     ""
