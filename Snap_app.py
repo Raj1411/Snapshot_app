@@ -18,7 +18,7 @@ st.title('Snapshot App')
 link=st.text_input('Enter Web_Page link')
 
 s=Service("/home/appuser/.conda/bin/geckodriver")
-driver=webdriver.Firefox(services=s,options=webdriveroptions)
+driver=webdriver.Firefox(s,options=webdriveroptions)
 
 if link=="":
     ""
