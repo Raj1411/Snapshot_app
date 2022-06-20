@@ -1,8 +1,8 @@
-Pillow==8.1.0
+Pillow
 selenium
-streamlit==0.84.1
-openpyxl==3.0.6
-seleniumbase>=1.63
+streamlit
+openpyxl
+seleniumbase
 webdriver-manager
 webdrivermanager
-geckodriver-autoinstaller==0.1.0
+geckodriver-autoinstaller
