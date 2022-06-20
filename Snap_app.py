@@ -18,7 +18,7 @@ link=st.text_input('Enter Web_Page link')
 driver=webdriver.Firefox(executable_path="/home/appuser/.conda/bin/geckodriver",options=webdriveroptions)
 
 if link=="":
-    None
+    ""
 else:
     driver.get(link)
     # st.write(link)
