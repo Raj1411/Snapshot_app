@@ -2,3 +2,5 @@ firefox-esr
 xvfb
 chromium
 chromium-driver
+chromium-common
+chromium-shell
