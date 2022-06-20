@@ -2,6 +2,7 @@
 from selenium import webdriver
 # from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.common.by import By
 from time import sleep
 import streamlit as st
 
@@ -23,7 +24,7 @@ else:
     driver.get(link)
     # st.write(link)
     sleep(2)
-    ele= driver.find_element_by_xpath('//*[@id="app"]')
+    ele= driver.find_element(By.XPATH,'//*[@id="app"]')
     width=1920
     height=ele.size['height'] + 1000
     driver.set_window_size(width,height)
