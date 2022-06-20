@@ -1,2 +1,4 @@
 firefox-esr
 xvfb
+chromium
+chromium-driver
