@@ -1,8 +1,8 @@
 Pillow
-selenium
+selenium==4.0.0
 streamlit
 openpyxl
-seleniumbase
-webdriver-manager
+seleniumbase==2.0.2
+webdriver-manager==3.5.2
 webdrivermanager
 geckodriver-autoinstaller
