@@ -24,6 +24,7 @@ if link=="":
     ""
 else:
     driver.get(link)
+    print(link)
     # st.write(link)
     sleep(2)
     ele= driver.find_element(By.XPATH,'//*[@id="app"]')
